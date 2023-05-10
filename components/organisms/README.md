@@ -1,0 +1,2 @@
+# Organisms
+Organisms adalah kelompok molecules, atoms, atau bahkan organisms lain yang kompleks. Tidak seperti molecules, satu organisms cukup kompleks untuk menyelesaikan banyak tugas. Contohnya adalah header, dibangun dari logo, menu icon, dan search bar. Tugasnya adalah: menampilkan brand, navigasi, dan pencarian.

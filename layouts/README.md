@@ -1,0 +1,2 @@
+# Templates
+Templates mewakili halaman web atau layar aplikasi yang lengkap, dibuat dari kombinasi komponen-komponen sebelumnya. Templates hanya kehilangan konten akhir, yaitu data yang ditampilkan ke halaman.

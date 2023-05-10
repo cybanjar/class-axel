@@ -1,0 +1,2 @@
+# Molecules
+Molecules adalah kelompok atoms yang bekerja sama untuk menyelesaikan sebuah tugas. Contohnya adalah search bar, mewakili satu molecules yang dibuat dari satu bidang input dan satu button. Tugasnya adalah membantu pengguna mencari konten di seluruh situs.
