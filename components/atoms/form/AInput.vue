@@ -5,6 +5,7 @@
     :id="label" 
     class="input" 
     v-model="model" 
+    :disabled="disabled"
     :autofocus="autofocus"
     :placeholder="placeholder">
 </template>
@@ -15,6 +16,7 @@ interface Props {
   label     : string,
   autofocus : boolean,
   placeholder: string,
+  disabled   : boolean,
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -22,6 +24,7 @@ const props = withDefaults(defineProps<Props>(), {
   label      : '',
   autofocus  : false,
   placeholder: '',
+  disabled   : false,
 })
 
 const emits = defineEmits(['update:modelValue'])

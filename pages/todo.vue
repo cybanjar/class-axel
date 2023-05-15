@@ -4,7 +4,7 @@
       <form @submit.prevent="submit">
         <a-input label="Input Task" placeholder="input your task.." v-model="form.task" autofocus />
         <a-checkbox v-if="isEdit" type="checkbox" v-model="form.completed" />
-        <a-button class="btn-indigo" @click="isEdit ? save() : submit() ">{{ isEdit ? 'Save' : 'Add' }}</a-button>
+        <a-button class="btn-indigo" :disabled="!form.task" @click="isEdit ? save() : submit() ">{{ isEdit ? 'Save' : 'Add' }}</a-button>
         <a-button v-if="isEdit" class="btn-default" @click="reset"> Cancel </a-button>
       </form>
   
