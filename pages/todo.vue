@@ -42,9 +42,6 @@
 <script setup>
 import { useTodoStore } from '@/stores/todo'
 import _ from 'lodash'
-import AButton from '@/components/atoms/AButton'
-import AInput from '@/components/atoms/form/AInput'
-import ACheckbox from '@/components/atoms/form/ACheckbox'
 import IconClose from '@carbon/icons-vue/es/trash-can/16'
 import IconEdit from '@carbon/icons-vue/es/edit/16'
 import IconTask from '@carbon/icons-vue/es/task/32'
