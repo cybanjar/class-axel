@@ -41,7 +41,7 @@
 
 <script setup>
 import { useTodoStore } from '@/stores/todo'
-import _ from 'lodash'
+import { isEmpty } from 'lodash-es'
 import IconClose from '@carbon/icons-vue/es/trash-can/16'
 import IconEdit from '@carbon/icons-vue/es/edit/16'
 import IconTask from '@carbon/icons-vue/es/task/32'
@@ -108,6 +108,6 @@ const openTodos = computed(
   }
 )
 
-const empty = computed(() => _.isEmpty(todoStore.todos))
+const empty = computed(() => isEmpty(todoStore.todos))
 
 </script>
