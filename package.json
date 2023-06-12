@@ -22,6 +22,8 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.9",
     "@types/crypto-js": "^4.1.1",
+    "@vuelidate/core": "^2.0.2",
+    "@vuelidate/validators": "^2.0.2",
     "autoprefixer": "^10.4.14",
     "crypto-js": "^4.1.1",
     "json-server": "^0.17.3",
