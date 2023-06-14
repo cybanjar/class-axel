@@ -15,5 +15,6 @@ const listMenu = [
         <NuxtLink :to="menu.url">{{ menu.title }}</NuxtLink>
       </li>
     </ul>
+    <small><NuxtLink to="/vee"> Vee Validate</NuxtLink></small>
   </div>
 </template>

@@ -19,6 +19,15 @@
   hr {
     @apply my-3 border-slate-100;
   }
+  select {
+    @extend input;
+  }
+  label {
+    @apply m-1 text-slate-500;
+  }
+  legend {
+    @apply text-slate-400;
+  }
 }
 
 @layer components {
@@ -72,7 +81,7 @@
 
   .error {
     &-text {
-      @apply text-red-600;
+      @apply text-red-600 font-light text-xs;
     }
   }
 
