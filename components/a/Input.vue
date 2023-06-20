@@ -6,23 +6,20 @@
     class="input" 
     v-model="model" 
     :disabled="disabled"
-    :autofocus="autofocus"
     :placeholder="placeholder">
 </template>
 
 <script setup lang="ts">
 interface Props {
   modelValue: string,
-  label     : string,
-  autofocus : boolean,
+  label?     : string,
   placeholder: string,
-  disabled   : boolean,
+  disabled?   : boolean,
 }
 
 const props = withDefaults(defineProps<Props>(), {
   modelValue : '',
   label      : '',
-  autofocus  : false,
   placeholder: '',
   disabled   : false,
 })

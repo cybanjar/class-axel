@@ -135,7 +135,7 @@ const handleDecryptRSA = async () => {
           <a-button class="btn-indigo" @click="handleGenerateRSA">Generate RSA Key</a-button>
         </div>
         <div class="flex justify-center mt-2 gap-2">
-          <a-input placeholder="Message.." v-model="message" autofocus />
+          <a-input placeholder="Message.." v-model="message" />
           <a-button class="btn-indigo" :disabled="(publicKey === '' && privateKey === '') || message === ''" @click="handleEncryptRSA">Encrypt RSA</a-button>
           <a-button class="btn-default" @click="handleDecryptRSA">Decrypt RSA</a-button>
         </div>
