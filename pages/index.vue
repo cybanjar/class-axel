@@ -1,8 +1,3 @@
 <template>
-  <div></div>  
+  <NuxtWelcome/>
 </template>
-
-<script setup>
-const router = useRouter()
-router.push({ path: '/todo'})
-</script>
