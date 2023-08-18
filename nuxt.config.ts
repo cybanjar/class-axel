@@ -32,5 +32,6 @@ export default defineNuxtConfig({
   },
   devServer: {
     port: 3010,
-  }
+  },
+  nitro: { preset: 'vercel-edge' },
 })
